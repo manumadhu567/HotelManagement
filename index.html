@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Hotel Management System</h1>
+
+  <form id="guestForm">
+    <label for="name">Guest Name:</label>
+    <input type="text" id="name" placeholder="Enter guest name" required />
+
+    <label for="room">Room Number:</label>
+    <input type="number" id="room" placeholder="Enter room number" required min="1" />
+
+    <label for="checkin">Check-in Date:</label>
+    <input type="date" id="checkin" required />
+
+    <label for="checkout">Check-out Date:</label>
+    <input type="date" id="checkout" required />
+
+    <button type="submit">Add Guest</button>
+  </form>
+
+  <table id="guestTable">
+    <thead>
+      <tr>
+        <th>Guest Name</th>
+        <th>Room Number</th>
+        <th>Check-in Date</th>
+        <th>Check-out Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Guest rows will appear here -->
+    </tbody>
+  </table>
+</div>
